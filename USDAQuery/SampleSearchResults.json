@@ -1,0 +1,329 @@
+{
+    list =     {
+        ds = "Standard Reference";
+        end = 45;
+        group = "";
+        item =         (
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, bacon, rendered fat, cooked";
+                        ndbno = 10864;
+                        offset = 0;
+                        },
+                        {
+                        ds = SR;
+                        group = "Legumes and Legume Products";
+                        name = "Bacon, meatless";
+                        ndbno = 16104;
+                        offset = 1;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fats and Oils";
+                        name = "Animal fat, bacon grease";
+                        ndbno = 04609;
+                        offset = 2;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fats and Oils";
+                        name = "Salad dressing, bacon and tomato";
+                        ndbno = 43331;
+                        offset = 3;
+                        },
+                        {
+                        ds = SR;
+                        group = "Sausages and Luncheon Meats";
+                        name = "Turkey bacon, unprepared";
+                        ndbno = 07254;
+                        offset = 4;
+                        },
+                        {
+                        ds = SR;
+                        group = "Sausages and Luncheon Meats";
+                        name = "Bacon and beef sticks";
+                        ndbno = 07921;
+                        offset = 5;
+                        },
+                        {
+                        ds = SR;
+                        group = "Sausages and Luncheon Meats";
+                        name = "Turkey bacon, microwaved";
+                        ndbno = 07973;
+                        offset = 6;
+                        },
+                        {
+                        ds = SR;
+                        group = "Sausages and Luncheon Meats";
+                        name = "Bacon, turkey, low sodium";
+                        ndbno = 07974;
+                        offset = 7;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, cured, bacon, unprepared";
+                        ndbno = 10123;
+                        offset = 8;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Canadian bacon, unprepared";
+                        ndbno = 10130;
+                        offset = 9;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "HORMEL Canadian Style Bacon";
+                        ndbno = 10857;
+                        offset = 10;
+                        },
+                        {
+                        ds = SR;
+                        group = "Legumes and Legume Products";
+                        name = "Bacon bits, meatless";
+                        ndbno = 43212;
+                        offset = 11;
+                        },
+                        {
+                        ds = SR;
+                        group = "Baby Foods";
+                        name = "Babyfood, dinner, vegetables and bacon, strained";
+                        ndbno = 03059;
+                        offset = 12;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, cured, bacon, cooked, baked";
+                        ndbno = 10860;
+                        offset = 13;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, cured, bacon, cooked, microwaved";
+                        ndbno = 10861;
+                        offset = 14;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Canadian bacon, cooked, pan-fried";
+                        ndbno = 10998;
+                        offset = 15;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "McDONALD'S, Bacon, Egg & Cheese McGRIDDLES";
+                        ndbno = 21327;
+                        offset = 16;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "McDONALD'S, Bacon Egg & Cheese Biscuit";
+                        ndbno = 21360;
+                        offset = 17;
+                        },
+                        {
+                        ds = SR;
+                        group = "Baby Foods";
+                        name = "Babyfood, cereal, egg yolks and bacon, junior";
+                        ndbno = 03201;
+                        offset = 18;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "Soup, bean with bacon, condensed, single brand";
+                        ndbno = 06731;
+                        offset = 19;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Bacon, pre-sliced, reduced/low sodium, unprepared";
+                        ndbno = 10994;
+                        offset = 20;
+                        },
+                        {
+                        ds = SR;
+                        group = "Legumes and Legume Products";
+                        name = "Campbell's Brown Sugar And Bacon Flavored Baked Beans";
+                        ndbno = 16200;
+                        offset = 21;
+                        },
+                        {
+                        ds = SR;
+                        group = "Legumes and Legume Products";
+                        name = "MORNINGSTAR FARMS Breakfast Bacon Strips, frozen, unprepared";
+                        ndbno = 16542;
+                        offset = 22;
+                        },
+                        {
+                        ds = SR;
+                        group = "Baked Products";
+                        name = "KELLOGG'S, EGGO, Biscuit Scramblers, Bacon, Egg & Cheese";
+                        ndbno = 18995;
+                        offset = 23;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, biscuit, with egg and bacon";
+                        ndbno = 21003;
+                        offset = 24;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, biscuit, with egg, cheese, and bacon";
+                        ndbno = 21007;
+                        offset = 25;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, croissant, with egg, cheese, and bacon";
+                        ndbno = 21012;
+                        offset = 26;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "McDONALD'S, Bacon Ranch Salad with Grilled Chicken";
+                        ndbno = 21376;
+                        offset = 27;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "McDONALD'S Bacon Ranch Salad with Crispy Chicken";
+                        ndbno = 21377;
+                        offset = 28;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "McDONALD'S, Bacon Ranch Salad without chicken";
+                        ndbno = 21378;
+                        offset = 29;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "CAMPBELL'S Red and White, Bean with Bacon Soup, condensed";
+                        ndbno = 06117;
+                        offset = 30;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "CAMPBELL'S Red and White, Split Pea with Ham and Bacon Soup, condensed";
+                        ndbno = 06380;
+                        offset = 31;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "CAMPBELL'S CHUNKY Soups, Baked Potato with Cheddar & Bacon Bits Soup";
+                        ndbno = 06383;
+                        offset = 32;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "CAMPBELL'S Soup on the Go, Cheesy Potato with Bacon Flavor Soup";
+                        ndbno = 06596;
+                        offset = 33;
+                        },
+                        {
+                        ds = SR;
+                        group = "Soups, Sauces, and Gravies";
+                        name = "Soup, split pea with ham and bacon, canned, condensed, single brand";
+                        ndbno = 06738;
+                        offset = 34;
+                        },
+                        {
+                        ds = SR;
+                        group = "Breakfast Cereals";
+                        name = "Cereals, QUAKER, Instant Grits, Country Bacon flavor, dry";
+                        ndbno = 08096;
+                        offset = 35;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, cured, bacon, pre-sliced, cooked, pan-fried";
+                        ndbno = 10862;
+                        offset = 36;
+                        },
+                        {
+                        ds = SR;
+                        group = "Pork Products";
+                        name = "Pork, cured, bacon, cooked, broiled, pan-fried or roasted, reduced sodium";
+                        ndbno = 43378;
+                        offset = 37;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, english muffin, with egg, cheese, and canadian bacon";
+                        ndbno = 21021;
+                        offset = 38;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, cheeseburger; single, large patty; with condiments and bacon";
+                        ndbno = 21097;
+                        offset = 39;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, submarine sandwich, bacon, lettuce, and tomato on white bread";
+                        ndbno = 21162;
+                        offset = 40;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, griddle cake sandwich, egg, cheese, and bacon";
+                        ndbno = 21307;
+                        offset = 41;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, grilled chicken, bacon and tomato club sandwich, with cheese, lettuce, and mayonnaise";
+                        ndbno = 21461;
+                        offset = 42;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "Fast foods, crispy chicken, bacon, and tomato club sandwich, with cheese, lettuce, and mayonnaise";
+                        ndbno = 21462;
+                        offset = 43;
+                        },
+                        {
+                        ds = SR;
+                        group = "Fast Foods";
+                        name = "SUBWAY, B.L.T. sub on white bread with bacon, lettuce and tomato";
+                        ndbno = 21161;
+                        offset = 44;
+                        }
+                        );
+        q = bacon;
+        sort = r;
+        sr = 28;
+        start = 0;
+        total = 45;
+    };
+}

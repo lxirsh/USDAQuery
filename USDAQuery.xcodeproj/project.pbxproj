@@ -8,12 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		B4CEA62E217C833200434629 /* USDAQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CEA62C217C833200434629 /* USDAQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4CEA646217C9B1F00434629 /* SampleFoodReport.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA634217C9B1D00434629 /* SampleFoodReport.json */; };
+		B4CEA647217C9B1F00434629 /* SampleFoodReportV2.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA635217C9B1D00434629 /* SampleFoodReportV2.json */; };
+		B4CEA648217C9B1F00434629 /* SampleSearchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA636217C9B1D00434629 /* SampleSearchResults.json */; };
+		B4CEA649217C9B1F00434629 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA637217C9B1D00434629 /* Constants.swift */; };
+		B4CEA64A217C9B1F00434629 /* MAYONNAISE,RED FAT,W: OLIVE OIL.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA638217C9B1D00434629 /* MAYONNAISE,RED FAT,W: OLIVE OIL.json */; };
+		B4CEA64B217C9B1F00434629 /* Oil, coconut.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA639217C9B1E00434629 /* Oil, coconut.json */; };
+		B4CEA64C217C9B1F00434629 /* NutrientIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA63A217C9B1E00434629 /* NutrientIDs.swift */; };
+		B4CEA64D217C9B1F00434629 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA63B217C9B1E00434629 /* Methods.swift */; };
+		B4CEA64F217C9B2000434629 /* Nutrient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA63D217C9B1E00434629 /* Nutrient.swift */; };
+		B4CEA650217C9B2000434629 /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA63E217C9B1E00434629 /* Convenience.swift */; };
+		B4CEA651217C9B2000434629 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA63F217C9B1E00434629 /* Client.swift */; };
+		B4CEA652217C9B2000434629 /* Beverages, carbonated, cola, regular.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA640217C9B1F00434629 /* Beverages, carbonated, cola, regular.json */; };
+		B4CEA653217C9B2000434629 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA641217C9B1F00434629 /* FoodItem.swift */; };
+		B4CEA654217C9B2000434629 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA642217C9B1F00434629 /* Measure.swift */; };
+		B4CEA655217C9B2000434629 /* OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json in Resources */ = {isa = PBXBuildFile; fileRef = B4CEA643217C9B1F00434629 /* OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json */; };
+		B4CEA656217C9B2000434629 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA644217C9B1F00434629 /* Food.swift */; };
+		B4CEA657217C9B2000434629 /* NutritionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CEA645217C9B1F00434629 /* NutritionDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4CEA629217C833200434629 /* USDAQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = USDAQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CEA62C217C833200434629 /* USDAQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USDAQuery.h; sourceTree = "<group>"; };
 		B4CEA62D217C833200434629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CEA634217C9B1D00434629 /* SampleFoodReport.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleFoodReport.json; sourceTree = "<group>"; };
+		B4CEA635217C9B1D00434629 /* SampleFoodReportV2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleFoodReportV2.json; sourceTree = "<group>"; };
+		B4CEA636217C9B1D00434629 /* SampleSearchResults.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleSearchResults.json; sourceTree = "<group>"; };
+		B4CEA637217C9B1D00434629 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B4CEA638217C9B1D00434629 /* MAYONNAISE,RED FAT,W: OLIVE OIL.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MAYONNAISE,RED FAT,W: OLIVE OIL.json"; sourceTree = "<group>"; };
+		B4CEA639217C9B1E00434629 /* Oil, coconut.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Oil, coconut.json"; sourceTree = "<group>"; };
+		B4CEA63A217C9B1E00434629 /* NutrientIDs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutrientIDs.swift; sourceTree = "<group>"; };
+		B4CEA63B217C9B1E00434629 /* Methods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		B4CEA63D217C9B1E00434629 /* Nutrient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nutrient.swift; sourceTree = "<group>"; };
+		B4CEA63E217C9B1E00434629 /* Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convenience.swift; sourceTree = "<group>"; };
+		B4CEA63F217C9B1E00434629 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B4CEA640217C9B1F00434629 /* Beverages, carbonated, cola, regular.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Beverages, carbonated, cola, regular.json"; sourceTree = "<group>"; };
+		B4CEA641217C9B1F00434629 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		B4CEA642217C9B1F00434629 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		B4CEA643217C9B1F00434629 /* OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json"; sourceTree = "<group>"; };
+		B4CEA644217C9B1F00434629 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		B4CEA645217C9B1F00434629 /* NutritionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +80,23 @@
 		B4CEA62B217C833200434629 /* USDAQuery */ = {
 			isa = PBXGroup;
 			children = (
+				B4CEA63F217C9B1E00434629 /* Client.swift */,
+				B4CEA637217C9B1D00434629 /* Constants.swift */,
+				B4CEA63E217C9B1E00434629 /* Convenience.swift */,
+				B4CEA644217C9B1F00434629 /* Food.swift */,
+				B4CEA641217C9B1F00434629 /* FoodItem.swift */,
+				B4CEA638217C9B1D00434629 /* MAYONNAISE,RED FAT,W: OLIVE OIL.json */,
+				B4CEA642217C9B1F00434629 /* Measure.swift */,
+				B4CEA63B217C9B1E00434629 /* Methods.swift */,
+				B4CEA63D217C9B1E00434629 /* Nutrient.swift */,
+				B4CEA63A217C9B1E00434629 /* NutrientIDs.swift */,
+				B4CEA645217C9B1F00434629 /* NutritionDetailViewController.swift */,
+				B4CEA643217C9B1F00434629 /* OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json */,
+				B4CEA639217C9B1E00434629 /* Oil, coconut.json */,
+				B4CEA634217C9B1D00434629 /* SampleFoodReport.json */,
+				B4CEA635217C9B1D00434629 /* SampleFoodReportV2.json */,
+				B4CEA636217C9B1D00434629 /* SampleSearchResults.json */,
+				B4CEA640217C9B1F00434629 /* Beverages, carbonated, cola, regular.json */,
 				B4CEA62C217C833200434629 /* USDAQuery.h */,
 				B4CEA62D217C833200434629 /* Info.plist */,
 			);
@@ -95,6 +146,7 @@
 				TargetAttributes = {
 					B4CEA628217C833200434629 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -120,6 +172,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CEA646217C9B1F00434629 /* SampleFoodReport.json in Resources */,
+				B4CEA647217C9B1F00434629 /* SampleFoodReportV2.json in Resources */,
+				B4CEA64B217C9B1F00434629 /* Oil, coconut.json in Resources */,
+				B4CEA64A217C9B1F00434629 /* MAYONNAISE,RED FAT,W: OLIVE OIL.json in Resources */,
+				B4CEA648217C9B1F00434629 /* SampleSearchResults.json in Resources */,
+				B4CEA652217C9B2000434629 /* Beverages, carbonated, cola, regular.json in Resources */,
+				B4CEA655217C9B2000434629 /* OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CEA657217C9B2000434629 /* NutritionDetailViewController.swift in Sources */,
+				B4CEA653217C9B2000434629 /* FoodItem.swift in Sources */,
+				B4CEA649217C9B1F00434629 /* Constants.swift in Sources */,
+				B4CEA654217C9B2000434629 /* Measure.swift in Sources */,
+				B4CEA650217C9B2000434629 /* Convenience.swift in Sources */,
+				B4CEA651217C9B2000434629 /* Client.swift in Sources */,
+				B4CEA656217C9B2000434629 /* Food.swift in Sources */,
+				B4CEA64D217C9B1F00434629 /* Methods.swift in Sources */,
+				B4CEA64F217C9B2000434629 /* Nutrient.swift in Sources */,
+				B4CEA64C217C9B1F00434629 /* NutrientIDs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +330,7 @@
 		B4CEA632217C833200434629 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -270,6 +340,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = USDAQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -278,6 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxirsh.USDAQuery;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,6 +358,7 @@
 		B4CEA633217C833200434629 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -295,6 +368,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = USDAQuery/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

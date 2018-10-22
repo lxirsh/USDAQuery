@@ -1,0 +1,157 @@
+{
+    "report": {
+        "sr": "June, 2017",
+        "type": "Basic",
+        "food": {
+            "ndbno": "45109853",
+            "name": "OCEAN SPRAY, DIET BLUEBERRY JUICE DRINK WITH ANOTHER JUICE, BLUEBERRY, UPC: 031200200716",
+            "ds": "LI",
+            "ru": "ml",
+            "ing": {
+                "desc": "FILTERED WATER, BLUEBERRY JUICE FROM CONCENTRATE, GRAPE JUICE FROM CONCENTRATE, NATURAL FLAVORS, MALIC ACID, PECTIN, FUMARIC ACID, ASCORBIC ACID (VITAMIN C), SUCRALOSE, ACESULFAME POTASSIUM",
+                "upd": "03/23/2017"
+            },
+            "nutrients": [
+                          {
+                          "nutrient_id": "208",
+                          "name": "Energy",
+                          "derivation": "LCCS",
+                          "group": "Proximates",
+                          "unit": "kcal",
+                          "value": "2",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "5"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "203",
+                          "name": "Protein",
+                          "derivation": "LCCS",
+                          "group": "Proximates",
+                          "unit": "g",
+                          "value": "0.00",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "0.00"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "204",
+                          "name": "Total lipid (fat)",
+                          "derivation": "LCCS",
+                          "group": "Proximates",
+                          "unit": "g",
+                          "value": "0.00",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "0.00"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "205",
+                          "name": "Carbohydrate, by difference",
+                          "derivation": "LCCS",
+                          "group": "Proximates",
+                          "unit": "g",
+                          "value": "0.83",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "1.99"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "269",
+                          "name": "Sugars, total",
+                          "derivation": "LCSL",
+                          "group": "Proximates",
+                          "unit": "g",
+                          "value": "0.42",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "1.01"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "306",
+                          "name": "Potassium, K",
+                          "derivation": "LCCS",
+                          "group": "Minerals",
+                          "unit": "mg",
+                          "value": "6",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "14"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "307",
+                          "name": "Sodium, Na",
+                          "derivation": "LCCS",
+                          "group": "Minerals",
+                          "unit": "mg",
+                          "value": "0",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "0"
+                                       }
+                                       ]
+                          },
+                          {
+                          "nutrient_id": "401",
+                          "name": "Vitamin C, total ascorbic acid",
+                          "derivation": "LCCD",
+                          "group": "Vitamins",
+                          "unit": "mg",
+                          "value": "25.0",
+                          "measures": [
+                                       {
+                                       "label": "fl oz",
+                                       "eqv": 240.0,
+                                       "eunit": "ml",
+                                       "qty": 8.0,
+                                       "value": "60.0"
+                                       }
+                                       ]
+                          }
+                          ]
+        },
+        "footnotes": [
+        
+        ]
+    }
+}
