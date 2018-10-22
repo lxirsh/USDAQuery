@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Client {
+extension USDAQuery {
     
     // MARK: URL Constants
     struct URLConstants {

@@ -1,5 +1,5 @@
 //
-//  Client.swift
+//  USDAQuery.swift
 //  USDAWebservice
 //
 //  Created by Lance Hirsch on 4/7/17.
@@ -14,21 +14,21 @@ private class USDAQueryConfiguration {
     var apiKey: String?
 }
 
-final public class Client: NSObject {
+final public class USDAQuery: NSObject {
     
     var apiKey = ""
     
-    public static let sharedInstance = Client()
+    public static let sharedInstance = USDAQuery()
     private static let config = USDAQueryConfiguration()
     
     public class func setup(apiKey: String) {
-        Client.config.apiKey = apiKey
+        USDAQuery.config.apiKey = apiKey
     }
     
     private override init() {
         
-        guard let apiKey = Client.config.apiKey else {
-            print("Error --  you must call setup before accessing Client")
+        guard let apiKey = USDAQuery.config.apiKey else {
+            print("Error -- you must call USDAQuery.setup before accessing USDAQuery")
             return
         }
         
@@ -111,9 +111,9 @@ final public class Client: NSObject {
     fileprivate func urlFromParameters(_ parameters: JSONDictionary, withPathExtention: String? = nil) -> URL {
         
         var components = URLComponents()
-        components.scheme = Client.URLConstants.USDAScheme
-        components.host = Client.URLConstants.USDAHost
-        components.path = Client.URLConstants.ApiPath + (withPathExtention ?? "")
+        components.scheme = USDAQuery.URLConstants.USDAScheme
+        components.host = USDAQuery.URLConstants.USDAHost
+        components.path = USDAQuery.URLConstants.ApiPath + (withPathExtention ?? "")
         components.queryItems = [URLQueryItem]()
         
         for (key, value) in parameters {

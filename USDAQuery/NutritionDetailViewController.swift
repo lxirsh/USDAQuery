@@ -10,7 +10,7 @@ import UIKit
 
 class NutritionDetailViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    var webservice: Client?
+    var webservice: USDAQuery?
     var foodItem: Food?
     @IBOutlet weak var foodLabel: UILabel!
     @IBOutlet weak var proteinLabel: UILabel!
@@ -27,7 +27,7 @@ class NutritionDetailViewController: UIViewController, UIPickerViewDelegate, UIP
         self.pickerView.delegate = self
         self.pickerView.dataSource = self
         
-        webservice = Client.sharedInstance
+        webservice = USDAQuery.sharedInstance
         if let food = foodItem {
             pickerData = (webservice?.getUnitsOfMeasurement(for: food))!
 

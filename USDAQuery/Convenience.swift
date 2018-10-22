@@ -8,14 +8,14 @@
 
 import Foundation
 
-extension Client {
+extension USDAQuery {
     
     public func fetchResults(for query: String, completionHandler: @escaping (_ results: [FoodItem]?, _ error: NSError?) -> Void) {
         
         let parameters = [
-            ParameterKeys.Format: Client.ParameterValues.JSON,
+            ParameterKeys.Format: USDAQuery.ParameterValues.JSON,
             ParameterKeys.SearchTerm: query,
-            ParameterKeys.DataSource: Client.ParameterValues.DataSource,
+            ParameterKeys.DataSource: USDAQuery.ParameterValues.DataSource,
             ParameterKeys.ApiKey: apiKey
         ]
         
@@ -54,7 +54,7 @@ extension Client {
         let ndbno = foodItem.ndbno
         
         let parameters = [
-            ParameterKeys.Format: Client.ParameterValues.JSON,
+            ParameterKeys.Format: USDAQuery.ParameterValues.JSON,
             ParameterKeys.ApiKey: apiKey,
             ParameterKeys.Ndbno: ndbno
         ]

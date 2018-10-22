@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Client {
+extension USDAQuery {
     
     // Get units of measurement for food
     public func getUnitsOfMeasurement(for food: Food) -> [String] {
